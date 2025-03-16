@@ -4,6 +4,7 @@ const nextConfig = {
 	experimental: {
 		scrollRestoration: true,
 	},
+	staticPageGenerationTimeout: 300, // 5 minutos em segundos
 	images: {
 		remotePatterns: [
 			{
